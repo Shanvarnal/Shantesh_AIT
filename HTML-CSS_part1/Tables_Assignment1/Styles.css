@@ -1,0 +1,23 @@
+table{
+    border-collapse: collapse;
+   
+}
+th{
+    background-color: lightgray;
+    text-align: left ;
+}
+.table1{
+    table-layout: fixed;
+    width: 500px;
+    height: 200px;
+}
+.table2{
+    table-layout: fixed;
+    width: 500px;
+    height: 200px;
+}
+.table3{
+    table-layout: fixed;
+    width: 500px;
+    height: 100px;
+}
