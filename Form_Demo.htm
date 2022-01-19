@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style type="text/css">
+        div{
+            border: black solid  ;
+ 
+            margin-left: 400px;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            max-width: 500px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body bgcolor="lightgreen">
+    <div >
+    <center>
+        <font size=7 color="Red">Registation Form</font>
+        <hr size=5 color="blue" width=400>
+    </center>
+    <form name="=f1"> 
+        <table align="center">
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="fname" size=20 maxlength="15" autofocus required></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="lname" size=20 maxlength="15"></td>
+            </tr>
+            <tr>
+                <td>Email Id</td>
+                <td><input type="email"  name="eid" size=20 maxlength="30" required></td>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="uname" size=20 maxlength="15" required></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="pwd" size=20 maxlength="15" required></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gr" >Male
+                    <input type="radio" name="gr" >Female</td>
+            </tr>
+            <tr>
+                <td>Course</td>
+                <td><input type="checkbox" name="cr" checked="checked" >Java
+                    <input type="checkbox" name="cr" >.Net
+                    <input type="checkbox" name="cr" >Python
+                    <input type="checkbox" name="cr" >C#</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea name="t3" row=7 cols=30>
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td><select name="c1">
+                    <option>---select---</option>
+                    <option>Pune</option>
+                    <option>Mumbai</option>
+                    <option>Hyderabad</option>
+                    <option>Banglore</option>
+                    <option>Noida</option>
+                    <option>Mohali</option>
+                    <option>Surat</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><select name="c1">
+                    <option>---select---</option>
+                    <option>Maharashtra</option>
+                    <option>Karnataka</option>
+                    <option>Telangna</option>
+                    <option>Gujrat</option>
+                    <option>Delhi</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Pincode</td>
+                <td><input type="number" name="pin" size=20 maxlength="6" required></td>
+            </tr>
+            <tr>
+                <td>Date Of Birth</td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td><input type="tel" name="ph" maxlength="10" required></td>
+            </tr>
+            <tr>
+                <td>Resume</td>
+                <td><input type="file" name="rs" required></td>
+            </tr>
+            <tr>
+                <td>Photo</td>
+                <td><input type="file" name="img" ></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit">
+                    <input type="Reset"></td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
