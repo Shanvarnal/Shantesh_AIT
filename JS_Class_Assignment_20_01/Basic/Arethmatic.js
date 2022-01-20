@@ -1,0 +1,6 @@
+document.write("Addition of two num: "+10+20+"<br>")
+document.write("Substraction of two num: "+(100-20)+"<br>")
+document.write("Multification of two num: "+10*20+"<br>")
+document.write("Division of two num: "+100/20+"<br>")
+document.write("Module of two num: "+124%20+"<br>")
+document.write("<br> <br>")
