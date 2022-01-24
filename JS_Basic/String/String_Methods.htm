@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var str="Shan superstar" //this is STring type
+        var str1=new String("Hello") //object type
+        var str2=" Varnal "
+
+        var val="Value"
+        var val1="Value"
+        var val3=new String("Value")
+        var val4=new String("Value")
+
+        //conact:
+        document.write(str+str2 +"<br>")
+        document.write(str.concat(str2)+"<br>")
+
+        //length
+        document.write("length of string str: "+str.length+"<br>")
+        //indexof()
+        document.write("index of a from str: "+str.indexOf("a")+"<br>")
+        //lastIndexOf()
+        document.write("last index of a from str2: "+str.lastIndexOf("a"+"<br>"))
+        //serach
+        document.write("place of n in str: "+str.search("n")+"<br>")
+        //slice
+        document.write("slice of str: "+str.slice(2,7)+"<br>")
+        document.write("Slice in negative(which print in revrse): "+str.slice(-1-5)+"<br>")
+        //substring
+        document.write("substring of str: "+str.substring(2,7)+"<br>")
+       // document.write("Slice in negative(which print in revrse):"+str.substring(-1-5)+"<br>")
+       //toLower
+       document.write("Lower case: "+str.toLowerCase()+"<br>")
+       //replace
+       document.write("Replace star to master: "+str.replace("star","master")+"<br>")
+       //trim
+       document.write("str2 length before trim: "+str2.length+"<br>")
+       var newstr=str2.trim()
+       document.write("str2 length after trim: "+newstr.length+"<br>")
+       //charAt
+       document.write("Char at str: "+str.charAt(6)+"<br>")
+       //split
+       var arr=str.split(" ")
+       document.write("after split printing array: "+arr+"<br>")
+
+       document.write((val===val1)+"<br>")
+       document.write((val===val3)+"<br>")
+       document.write((val3===val4)+"<br>")
+
+    </script>
+</body>
+</html>

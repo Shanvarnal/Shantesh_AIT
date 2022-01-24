@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    <script>
+        var arr1=[88,55,99,54]
+        document.write(arr1[0]+"<br>")
+        console.log(arr1.length)
+        for(let i=0;i<arr1.length;i++)
+        {
+            console.log(arr1[0])
+        }
+        var arr=new Array(
+            {
+                name:"Shan",
+                id:101,
+                marks:70,
+                Add:"Pune"
+            },
+            {
+                name:"Shail",
+                id:102,
+                marks:60,
+                Add:"Pune"
+            },
+            {
+                name:"Sam",
+                id:111,
+                marks:75,
+                Add:"Pune"
+            },
+            {
+                name:"Shinu",
+                id:107,
+                marks:90,
+                Add:"Pune"
+            }
+        );
+
+        arr.forEach((value)=>{
+            document.write(value.name+" "+value.id+" "+value.Add+"<br>")
+        })
+
+        document.write("arr is array: "+Array.isArray(arr)+"<br>")
+       // document.write(arr.toString())
+
+       document.write("After use of pop,push,shift,unshift:---"+"<br>")
+       document.write("After use of pop"+"<br>"+"<br>")
+       var val=arr.pop()
+       arr.forEach((value)=>{
+            document.write(value.name+" "+value.id+" "+value.Add+"<br>")
+        })
+        document.write("After use of push"+"<br>"+"<br>")
+       var val=arr.push(
+           {
+            name:"Mukund",
+                id:107,
+                marks:90,
+                Add:"Pune"
+           }
+       )
+       arr.forEach((value)=>{
+            document.write(value.name+" "+value.id+" "+value.Add+"<br>")
+        })
+        document.write("After use of shift"+"<br>"+"<br>")
+        var sh=arr.shift()
+        arr.forEach((value)=>{
+            document.write(value.name+" "+value.id+" "+value.Add+"<br>")
+        })
+
+        document.write("After use of unshift"+"<br>"+"<br>")
+        var sh=arr.unshift({
+            name:"Priyesh",
+                id:107,
+                marks:90,
+                Add:"Pune"
+        })
+        arr.forEach((value)=>{
+            document.write(value.name+" "+value.id+" "+value.Add+"<br>")
+        })
+
+        
+    </script>
+</body>
+</html>

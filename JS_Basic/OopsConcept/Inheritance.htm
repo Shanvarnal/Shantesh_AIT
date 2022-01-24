@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Vehical{
+            show(){
+                document.write("Show in vehical"+"<br>")
+            }
+        }
+        class Car extends Vehical
+{
+    constructor(c_ID,c_Name,c_Price)
+    {
+        this.c_ID=c_ID;
+        this.c_Name=c_Name;
+        this.c_Price=c_Price;
+
+        console.log("this is parametrized constructor")
+    }
+
+    show()
+    {
+        console.log("In show method")
+        document.write("In show method"+"<br>")
+        return this.c_Name+" Super Model"
+    }
+}
+var car2=new Car()
+var txt=car2.show()
+    </script>
+</body>
+</html>
