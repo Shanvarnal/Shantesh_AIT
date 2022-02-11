@@ -1,0 +1,37 @@
+{"user":[
+	{"id":1,"username":"Admin1","password":"pwd1","status":"Active"},
+{"id":2,"username":"Admin2","password":"pwd2","status":"Dactive"},
+{"id":3,"username":"Admin3","password":"pwd3","status":"Active"},
+{"id":4,"username":"Admi4","password":"pwd4","status":"Dactive"}
+],
+"employee":[
+	{"id":101,"name":"Shan","salary":45000,"departmentID":1,"designationID":3},
+{"id":102,"name":"Sam","salary":55000,"departmentID":2,"designationID":2},
+{"id":103,"name":"Ram","salary":35000,"departmentID":3,"designationID":1},
+{"id":104,"name":"Mohan","salary":55000,"departmentID":1,"designationID":2},
+{"id":105,"name":"Priya","salary":45000,"departmentID":2,"designationID":1},
+{"id":106,"name":"Kunal","salary":45000,"departmentID":2,"designationID":3},
+{"id":107,"name":"Priyank","salary":45000,"departmentID":1,"designationID":1},
+{"id":108,"name":"Mukesh","salary":45000,"departmentID":1,"designationID":3},
+{"id":109,"name":"Anand","salary":45000,"departmentID":3,"designationID":2},
+{"id":110,"name":"Suraj","salary":45000,"departmentID":3,"designationID":3},
+{"id":111,"name":"Manoj","salary":45000,"departmentID":1,"designationID":2},
+{"id":112,"name":"Kavya","salary":45000,"departmentID":2,"designationID":2}
+
+],
+
+"department":[
+{"id":0,"departmentName":"--Select--"},
+{"id":1,"departmentName":"Developer"},
+{"id":2,"departmentName":"Tester"},
+{"id":3,"departmentName":"Admin"}
+],
+
+"designation" :[
+      {"id":0,"designationName":"--Select--"},
+      {"id":1,"designationName":"Team Lead"},
+      {"id":2,"designationName":"Associate Engineer"},
+      {"id":3,"designationName":"Software Enginner"}
+  ]
+
+}

@@ -1,0 +1,22 @@
+{
+  "Vendor": [
+    {
+      "id": "1",
+      "vendorName": "Nokia",
+      "contctno": "98654675",
+      "type": "true"
+    },
+    {
+      "id": "2",
+      "vendorName": "Vodaphone",
+      "contctno": "8949898654",
+      "type": "false"
+    },
+    {
+      "id": "3",
+      "vendorName": "KLM",
+      "contctno": "7894656864",
+      "type": "true"
+    }
+  ]
+}

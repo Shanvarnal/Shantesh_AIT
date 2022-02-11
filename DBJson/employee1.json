@@ -1,0 +1,24 @@
+{
+  "Employee": [
+    {
+      "id": 1,
+      "employeeName": "Rohit",
+      "address": "H.No123455",
+      "city": "New Mumbai",
+      "DesignationId": 1
+    },
+    {
+      "id": 2,
+      "employeeName": "Pranit ",
+      "address": "H.No123467",
+      "city": "New Mumbai"
+    },
+    {
+      "id": 3,
+      "employeeName": "Mohan Das",
+      "address": "H.No89756",
+      "city": "Pune",
+      "DesignationId": 1
+    }
+  ]
+}

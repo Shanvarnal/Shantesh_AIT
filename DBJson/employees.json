@@ -1,0 +1,37 @@
+{
+  "Employee": [
+    {
+      "id": 1,
+      "employeeName": "Rohit Sharma",
+      "address": "H.No123455",
+      "city": "New Delhi",
+      "DesignationId":1
+    },
+    {
+      "id": 2,
+      "employeeName": "Anubhav Sharma",
+      "address": "H.No123455",
+      "city": "New Delhi",
+      "DesignationId":2
+    },
+    {
+      "id": 3,
+      "employeeName": "Rohit Sharma",
+      "address": "H.No123455",
+      "city": "New Delhi",
+      "DesignationId":1
+    },
+    {
+      "id": 4,
+      "employeeName": "Akritee Chauhan",
+      "address": "H.No123455",
+      "city": "Faridabad",
+      "DesignationId":3
+    }
+  ],
+  "Designation" :[
+      {"id":1,"designationName":"Web Developer"},
+      {"id":2,"designationName":"Full Stack Developer"},
+      {"id":3,"designationName":"Project Manager"}
+  ]
+}
