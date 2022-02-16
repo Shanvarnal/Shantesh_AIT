@@ -1,52 +1,54 @@
 import logo from './logo.svg';
-import './App.css';
-// import User from './User'
-// import User_Details from './User_Details'
-import UserTest1 from './UserTest1'
-import Client from './Client';
-import Demo from './component/Demo'
-import CheckBox from './component/CheckBox';
-import ProposUse from './component/ProposUse';
-import StateUse from './component/StateUse';
-import CounterChange from './component/CounterChange';
-import User from './Assignments/User';
-import Employee from './Assignments/Employee';
-import TotalVal from './component/TotalVal';
-import Textbox from './component/Textbox';
-import Signup from './Assignments/Signup';
-import Emp from './Assignments/Emp';
-import Display2 from './Assignments/Display2';
+ import './App.css';
+import Cal from './Assignments/Calculator' 
+import ClientRecord from './Assignments/ClientData';
+import Demo from './Assignments/Demo';
+import Student2 from './Assignments/Student2';
 import Curd from './Assignments/Curd';
+import Client from './Assignments/Client';
+import Drop from './Assignments/Drop';
+import CssDrop from './Assignments/CssDrop';
+import Product from './Assignments/Product';
+import Employee from './API/Emp';
+import AddEmployee from './API/Emp2';
+import UpdateEmployee from './API/UpdateEmp';
+import Vendor from './API/Vendor';
+import BasicRouter from './RouterFiles/BasicRouter';
+import DemoRouter from './RouterFiles/DemoRouter';
+import EmployeeApi from './RouterFiles/EmployeeApi';
+import MainRouter from './RouterFiles2/MainRouter';
+import DisplayHoc from './HOC/DisplayHoc';
+import ClientHoc from './HOC/ClientHoc';
+import VendorHoc from './HOC/VendorHoc';
+import AddEmployeeReducer from './AddEmployeeReducer';
 function App() {
   return (
     <div className="App">
+      {/* <Cal/>*/}
+      {/* <Demo/> */}
+      {/* <Client/> */}
+      {/* <Curd/> */}
+      {/* <Student/> */}
+      {/* <Student2/>*/}
+      {/* <ClientRecord/>  */}
+      {/* <Drop/>  */}
+      {/* <CssDrop/> */}
+      {/* <Product/> */}
+      {/* <Employee/> */}
+      {/* <AddEmployee/> */}
+      {/* <UpdateEmployee/>
+      <Vendor/> */}
+      {/* <BasicRouter/> */}
+      {/* <DemoRouter/> */}
+      {/* <EmployeeApi/> */}
+      {/* <hr></hr> */}
+      {/* <MainRouter/> */}
+      <DisplayHoc/>
+      <ClientHoc/>
+      <VendorHoc/>
+      <AddEmployeeReducer/>
+     </div>
      
-          {/* <h1>Hii.........</h1>
-          <User userid="My user id is 177727"/>
-          <User_Details userid="My user id is 177727"/> 
-          <UserTest1/> */}
-          {/* <Client/> */}
-          {/* <Demo/> */}
-          {/* <CheckBox/>
-          <ProposUse parameter="This is my first value" parameter1="12788546"/>
-          <StateUse/>
-          <CounterChange/>
-          <hr></hr>
-          <User/>
-          <hr></hr>
-          <Employee/>
-          <hr></hr>
-          <TotalVal/>
-          <hr></hr>
-          <Textbox/> */}
-          <Signup/>
-          <hr></hr>
-          {/* <Emp/> */}
-          <hr></hr>
-          <Display2/>
-          <hr></hr>
-          <Curd/>
-    </div>
   );
 }
 
