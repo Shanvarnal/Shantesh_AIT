@@ -1,0 +1,26 @@
+{
+    "emp1":{
+        "name":"Shan",
+        "dept":"Devp",
+        "salary":50000,
+        "id":1
+    },
+    "emp2":{
+        "name":"Shail",
+        "dept":"QA",
+        "salary":50000,
+        "id":2
+    },
+    "emp3":{
+        "name":"Shail",
+        "dept":"Devp",
+        "salary":50000,
+        "id":3
+    },
+    "emp4":{
+        "name":"Sam",
+        "dept":"QA",
+        "salary":50000,
+        "id":4
+    }
+}
