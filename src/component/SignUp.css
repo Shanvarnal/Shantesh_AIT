@@ -1,0 +1,88 @@
+.main{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    /* padding: 90px 0 90px 0; */
+    background-color: 	#FFFFFF;
+
+}
+
+.sub-main{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 30%;
+    border-radius: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 11px 12px 11px 12px #F5F5F5;
+    padding-top: 40px;
+}
+
+
+
+/* input{
+    width:200px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: #FFFFE0;
+} */
+
+.email{
+    height: 35px;
+    width: 45px;
+    position: absolute;
+    padding: 14px 0px 0px 25px;
+}
+
+.name{
+    /* padding-left: 75px; */
+    font-size: 15px;
+}
+
+.second-input{
+    padding-top: 15px;
+}
+
+/* button{
+    width:280px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #ff7950;
+    font-size: 25px;
+    color: #FFFFFF;
+    border: none;
+    
+} */
+
+.loginBtn{
+    
+    width:250px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #ff7950;
+    font-size: 25px;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+.loginButton{
+    padding-top: 25px;
+   
+}
+
+.para{
+    font-size: 20px;
+    font-weight: 400;
+}
+a{
+    margin-left: 2px;
+}
+
+.mesg{
+    background-color:lawngreen ;
+    color:black;
+}

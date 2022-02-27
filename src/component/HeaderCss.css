@@ -1,0 +1,144 @@
+.navbar{
+    /* position: sticky;
+    top: 0px; */
+    background-color:darkorchid;
+    width:100%;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    overflow: hidden;
+}
+
+.navbar .leftside{
+    flex:20%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.navbar .leftside .navbarlogo{
+    color:white;
+    margin-left: 15px;
+    font-family: cursive;
+}
+
+.navbar .center{
+    flex:50%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+.search{
+    color:white;
+    margin-left: 3px;
+    
+}
+
+.center input{
+    width:220px;
+    height:30px;
+    border:none;
+    border-radius:4px;
+    font-size: 15px;
+    padding-left: 15px;
+    background-color: #FFFFE0;
+}
+
+.center button{
+    height:32px;
+    width:70px;
+    font-size:16px;
+}
+
+.navbar .rightside{
+    flex:30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+ 
+}
+
+.rightside .navIcon1{
+    border: none;
+    background: none;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color:white;
+}
+
+.rightside .navIcon2{
+    border: none;
+    background: none;
+    height: 30px;
+    width: 30px;
+    color:white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 30px 50px 20px 50px;
+    box-sizing: border-box;
+    background-color: #FFFFE0;
+    margin-top: 20px;
+    position: relative;
+    top:0px;
+    /* z-index: -1; */
+    /* overflow: hidden; */
+}
+
+.navbarDash{
+
+    position: sticky;
+    top: 0px;
+    background-color:darkgray;
+    width:100%;
+    height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    overflow: hidden;
+}
+
+
+
+.navUl li{
+    display: inline-block;
+    justify-content: center;
+    padding-top: 20px;
+    margin-right: 35px;
+}
+.navUl button{
+    width:180px;
+    height: 40px;
+    text-align: center;
+    margin-left: 6px;
+    padding-top: 4px;
+    border: none;
+    border-radius: 18px;
+    font-family: cursive;
+    font-size: 18px;
+    color: black;
+}
+
+.pTable{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 350px;
+    margin-bottom: 80px;
+}
+
+.dropBtn{
+    border: 2px black;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-left: 2px;
+    padding: 2px;
+}
